@@ -135,28 +135,21 @@
    		
    		\begin{block}{Procedure}
 				\begin{algorithmic}
-					\If {$i\geq maxval$}
-					\State $i\gets 0$
-					\Else
-					\If {$i+k\leq maxval$}
-					\State $i\gets i+k$
-					\EndIf
-					\EndIf
+					\ForAll {Subjects}
+						X \gets SubjectData
+						\ForAll {ROI \gets Face,Place,Object,WholeBrain}
+							\For {TR \gets 0,4}
+								solution \gets iLasso()				
+							\EndFor
+						\EndFor
+					\EndFor
 				\end{algorithmic}
   		\end{block}
   		\begin{block}{Performance}
 			\begin{figure}
-				\includegraphics[width=\textwidth]{figures/Faces_WithinBeyond.png}
-				\caption{Face Classification}
+				\includegraphics[width=\textwidth]{figures/Summary_by_TR.png}
+				\caption{Classification performance, contrasting whether iLasso is trained on voxels only within, or only beyond, the prescribed ROIs. TR 0 is stimulus onset.}
 			\end{figure}			
-			\begin{figure}
-				\includegraphics[width=\textwidth]{figures/Places_WithinBeyond.png}
-				\caption{Place Classification}
-			\end{figure}
-			\begin{figure}
-				\includegraphics[width=\textwidth]{figures/Objects_WithinBeyond.png}
-				\caption{Object Classification}
-			\end{figure}
   		\end{block}
    	\end{column}
 
