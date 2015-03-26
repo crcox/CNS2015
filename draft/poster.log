@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.7)  26 MAR 2015 13:01
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.7)  26 MAR 2015 14:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1027,28 +1027,28 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 ) (./poster.aux)
 \openout1 = `poster.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 85.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 85.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 88.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 88.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 85.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 88.
 
 (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1117,7 +1117,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box61
-Package hyperref Info: Link coloring OFF on input line 85.
+Package hyperref Info: Link coloring OFF on input line 88.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1127,9 +1127,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count189
 )
-LaTeX Info: Redefining \ref on input line 85.
-LaTeX Info: Redefining \pageref on input line 85.
-LaTeX Info: Redefining \nameref on input line 85.
+LaTeX Info: Redefining \ref on input line 88.
+LaTeX Info: Redefining \pageref on input line 88.
+LaTeX Info: Redefining \nameref on input line 88.
 
 (./poster.out) (./poster.out)
 \@outlinefile=\write5
@@ -1160,23 +1160,23 @@ Dictionary: translator-numbers-dictionary, Language: English
 tionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 85.
+LaTeX Info: Redefining \includegraphics on input line 88.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 85.
+LaTeX Info: Redefining \selectfont on input line 88.
  (./poster.nav)
-LaTeX Font Info:    Calculating math sizes for size <16.8> on input line 85.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 85.
+LaTeX Font Info:    Calculating math sizes for size <16.8> on input line 88.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 88.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 85.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 88.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 85.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 88.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
@@ -1184,100 +1184,113 @@ File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <16.8> not available
-(Font)              size <17.28> substituted on input line 85.
+(Font)              size <17.28> substituted on input line 88.
 
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 223.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 239.
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for TS1+lmss on input line 223
+LaTeX Font Info:    Try loading font information for TS1+lmss on input line 239
 .
 
 (/usr/share/texmf/tex/latex/lm/ts1lmss.fd
 File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Calculating math sizes for size <34.83> on input line 223.
+LaTeX Font Info:    Calculating math sizes for size <34.83> on input line 239.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <34.83> not available
-(Font)              size <24.88> substituted on input line 223.
+(Font)              size <24.88> substituted on input line 239.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <24.38089> not available
-(Font)              size <24.88> substituted on input line 223.
+(Font)              size <24.88> substituted on input line 239.
 
-<figures/HitRate_FalseAlarmRate.png, id=14, 1154.3125pt x 531.9875pt>
+<figures/HitRate_FalseAlarmRate.png, id=16, 1154.3125pt x 531.9875pt>
 File: figures/HitRate_FalseAlarmRate.png Graphic file (type png)
 
 <use figures/HitRate_FalseAlarmRate.png>
 Package pdftex.def Info: figures/HitRate_FalseAlarmRate.png used on input line 
-223.
+239.
 (pdftex.def)             Requested size: 763.17543pt x 351.73788pt.
-LaTeX Font Info:    Calculating math sizes for size <29.04> on input line 223.
+LaTeX Font Info:    Calculating math sizes for size <29.04> on input line 239.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <29.04> not available
-(Font)              size <24.88> substituted on input line 223.
+(Font)              size <24.88> substituted on input line 239.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <20.3279> not available
-(Font)              size <20.74> substituted on input line 223.
+(Font)              size <20.74> substituted on input line 239.
 
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 223
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 239
 .
 (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<figures/ROIs.png, id=15, 2002.48125pt x 720.6925pt>
+<figures/ROIs.png, id=17, 2002.48125pt x 720.6925pt>
 File: figures/ROIs.png Graphic file (type png)
  <use figures/ROIs.png>
-Package pdftex.def Info: figures/ROIs.png used on input line 223.
+Package pdftex.def Info: figures/ROIs.png used on input line 239.
 (pdftex.def)             Requested size: 763.17543pt x 274.66876pt.
 
-<figures/Summary_By_TR.png, id=17, 393.8715pt x 125.0271pt>
+<figures/Summary_By_TR.png, id=21, 393.8715pt x 125.0271pt>
 File: figures/Summary_By_TR.png Graphic file (type png)
 
 <use figures/Summary_By_TR.png>
-Package pdftex.def Info: figures/Summary_By_TR.png used on input line 223.
+Package pdftex.def Info: figures/Summary_By_TR.png used on input line 239.
 (pdftex.def)             Requested size: 763.17543pt x 242.2909pt.
 
-<figures/face_gt5c_key.png, id=18, 1824.8175pt x 612.2875pt>
+<figures/face_gt5c_key.png, id=22, 1824.8175pt x 612.2875pt>
 File: figures/face_gt5c_key.png Graphic file (type png)
 
 <use figures/face_gt5c_key.png>
-Package pdftex.def Info: figures/face_gt5c_key.png used on input line 223.
+Package pdftex.def Info: figures/face_gt5c_key.png used on input line 239.
 (pdftex.def)             Requested size: 763.17543pt x 256.06589pt.
 
-<figures/place_gt5c_key.png, id=19, 1822.81pt x 622.325pt>
+<figures/place_gt5c_key.png, id=23, 1822.81pt x 622.325pt>
 File: figures/place_gt5c_key.png Graphic file (type png)
 
 <use figures/place_gt5c_key.png>
-Package pdftex.def Info: figures/place_gt5c_key.png used on input line 223.
+Package pdftex.def Info: figures/place_gt5c_key.png used on input line 239.
 (pdftex.def)             Requested size: 763.17543pt x 260.55806pt.
 
-<figures/object_gt5c_key.png, id=20, 1667.22874pt x 576.1525pt>
+<figures/object_gt5c_key.png, id=24, 1667.22874pt x 576.1525pt>
 File: figures/object_gt5c_key.png Graphic file (type png)
 
 <use figures/object_gt5c_key.png>
-Package pdftex.def Info: figures/object_gt5c_key.png used on input line 223.
+Package pdftex.def Info: figures/object_gt5c_key.png used on input line 239.
 (pdftex.def)             Requested size: 763.17543pt x 263.73224pt.
 
-<figures/FPO_gt5b2.png, id=21, 1658.195pt x 604.2575pt>
+<figures/FPO_gt5b2.png, id=25, 1658.195pt x 604.2575pt>
 File: figures/FPO_gt5b2.png Graphic file (type png)
 
 <use figures/FPO_gt5b2.png>
-Package pdftex.def Info: figures/FPO_gt5b2.png used on input line 223.
+Package pdftex.def Info: figures/FPO_gt5b2.png used on input line 239.
 (pdftex.def)             Requested size: 763.17543pt x 278.10013pt.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 239.
 
-<figures/Summary_ProportionSelected.png, id=22, 223.5552pt x 225.2415pt>
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Underfull \hbox (badness 10000) in paragraph at lines 239--239
+[]\T1/lmr/m/n/34.83 The core code for do-ing anal-y-ses with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--239
+\T1/lmr/m/n/34.83 it-er-a-tive lasso can be found here:
+ []
+
+<figures/Summary_ProportionSelected.png, id=26, 223.5552pt x 225.2415pt>
 File: figures/Summary_ProportionSelected.png Graphic file (type png)
 
 <use figures/Summary_ProportionSelected.png>
 Package pdftex.def Info: figures/Summary_ProportionSelected.png used on input l
-ine 223.
+ine 239.
 (pdftex.def)             Requested size: 763.17543pt x 769.11723pt.
-
-Overfull \hbox (88.25626pt too wide) detected at line 223
+ (./poster.bbl)
+Overfull \hbox (88.25626pt too wide) detected at line 239
 [][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][
 ][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][]
  [][][][][][][] 
@@ -1303,11 +1316,11 @@ gures/Summary_ProportionSelected.png (PNG copy)>]
 \tf@snm=\write8
 \openout8 = `poster.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 224.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 224.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 240.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 240.
  (./poster.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 224.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 224.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 240.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 240.
 Package rerunfilecheck Info: File `poster.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1315,30 +1328,30 @@ Package rerunfilecheck Info: File `poster.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 9.95pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 224.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 240.
  ) 
 Here is how much of TeX's memory you used:
- 20702 strings out of 495028
- 382564 string characters out of 6181498
- 544286 words of memory out of 5000000
- 23359 multiletter control sequences out of 15000+600000
- 90361 words of font info for 93 fonts, out of 8000000 for 9000
+ 20790 strings out of 495028
+ 384840 string characters out of 6181498
+ 557675 words of memory out of 5000000
+ 23437 multiletter control sequences out of 15000+600000
+ 97956 words of font info for 96 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  52i,16n,66p,431b,1165s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/share/texmf/fonts/enc/
-dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr
-/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/
-lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texlive/t
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-rmtt.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/sha
+re/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/
+lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf/fonts/typ
 e1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></us
 r/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/pub
 lic/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on poster.pdf (1 page, 7499701 bytes).
+Output written on poster.pdf (1 page, 7508622 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 500000)
+ 94 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
  89 words of extra memory for PDF output out of 10000 (max. 10000000)
 
