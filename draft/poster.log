@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.8.15)  25 MAR 2015 21:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.8.15)  26 MAR 2015 08:04
 entering extended mode
 **poster.tex
 (C:\Users\chris\Documents\CNS2015\draft\poster.tex
@@ -793,10 +793,47 @@ Package: fp-eval 1995/04/03
 ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL )
 ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL )
 ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ))
-\sepwid=\skip57
-\introcolwid=\skip58
-\datacolwid=\skip59
-\threecolwid=\skip60
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithmicx\algpseudocode.sty"
+Package: algpseudocode 
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithmicx\algorithmicx.sty"
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count165
+\c@ALG@rem=\count166
+\c@ALG@nested=\count167
+\ALG@tlm=\skip57
+\ALG@thistlm=\skip58
+\c@ALG@Lnr=\count168
+\c@ALG@blocknr=\count169
+\c@ALG@storecount=\count170
+\c@ALG@tmpcounter=\count171
+\ALG@tmplength=\skip59
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty"
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count172
+\float@exts=\toks45
+\float@box=\box53
+\@float@everytoks=\toks46
+\@floatcapt=\box54
+)
+\@float@every@algorithm=\toks47
+\c@algorithm=\count173
+)
+\sepwid=\skip60
+\introcolwid=\skip61
+\datacolwid=\skip62
+\threecolwid=\skip63
 
 (C:\Users\chris\Documents\CNS2015\draft\beamerthemeconfposter.sty
 Package: beamerthemeconfposter 
@@ -807,7 +844,7 @@ Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex"
 File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
-\pgfnodeparttextbox=\box53
+\pgfnodeparttextbox=\box55
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex"
 File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
 )
@@ -831,8 +868,8 @@ Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
 \pgffor@iter=\dimen190
 \pgffor@skip=\dimen191
-\pgffor@stack=\toks45
-\pgffor@toks=\toks46
+\pgffor@stack=\toks48
+\pgffor@toks=\toks49
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex"
 Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
@@ -840,7 +877,7 @@ Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.
 code.tex"
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
-\pgf@plot@mark@count=\count165
+\pgf@plot@mark@count=\count174
 \pgfplotmarksize=\dimen192
 )
 \tikz@lastx=\dimen193
@@ -849,22 +886,22 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
 \tikz@lastysaved=\dimen196
 \tikzleveldistance=\dimen197
 \tikzsiblingdistance=\dimen198
-\tikz@figbox=\box54
-\tikz@figbox@bg=\box55
-\tikz@tempbox=\box56
-\tikz@tempbox@bg=\box57
-\tikztreelevel=\count166
-\tikznumberofchildren=\count167
-\tikznumberofcurrentchild=\count168
-\tikz@fig@count=\count169
+\tikz@figbox=\box56
+\tikz@figbox@bg=\box57
+\tikz@tempbox=\box58
+\tikz@tempbox@bg=\box59
+\tikztreelevel=\count175
+\tikznumberofchildren=\count176
+\tikznumberofcurrentchild=\count177
+\tikz@fig@count=\count178
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count170
-\pgfmatrixcurrentcolumn=\count171
-\pgf@matrix@numberofcolumns=\count172
+\pgfmatrixcurrentrow=\count179
+\pgfmatrixcurrentcolumn=\count180
+\pgf@matrix@numberofcolumns=\count181
 )
-\tikz@expandcount=\count173
+\tikz@expandcount=\count182
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
 librarytopaths.code.tex"
@@ -882,8 +919,8 @@ File: pgflibraryarrows.code.tex 2013/09/23 v3.0.0 (rcs-revision 1.16)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
 librarybackgrounds.code.tex"
 File: tikzlibrarybackgrounds.code.tex 2013/07/18 v3.0.0 (rcs-revision 1.3)
-\pgf@layerbox@background=\box58
-\pgf@layerboxsaved@background=\box59
+\pgf@layerbox@background=\box60
+\pgf@layerboxsaved@background=\box61
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
@@ -1017,24 +1054,24 @@ Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
  ("C:\Program Files\MiKTeX 2.9\tex\latex\ms\everysel.sty"
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
-\CenteringLeftskip=\skip61
-\RaggedLeftLeftskip=\skip62
-\RaggedRightLeftskip=\skip63
-\CenteringRightskip=\skip64
-\RaggedLeftRightskip=\skip65
-\RaggedRightRightskip=\skip66
-\CenteringParfillskip=\skip67
-\RaggedLeftParfillskip=\skip68
-\RaggedRightParfillskip=\skip69
-\JustifyingParfillskip=\skip70
-\CenteringParindent=\skip71
-\RaggedLeftParindent=\skip72
-\RaggedRightParindent=\skip73
-\JustifyingParindent=\skip74
+\CenteringLeftskip=\skip64
+\RaggedLeftLeftskip=\skip65
+\RaggedRightLeftskip=\skip66
+\CenteringRightskip=\skip67
+\RaggedLeftRightskip=\skip68
+\RaggedRightRightskip=\skip69
+\CenteringParfillskip=\skip70
+\RaggedLeftParfillskip=\skip71
+\RaggedRightParfillskip=\skip72
+\JustifyingParfillskip=\skip73
+\CenteringParindent=\skip74
+\RaggedLeftParindent=\skip75
+\RaggedRightParindent=\skip76
+\JustifyingParindent=\skip77
 )
-\inboxwd=\skip75
-\iinboxwd=\skip76
-\inboxrule=\skip77
+\inboxwd=\skip78
+\iinboxwd=\skip79
+\inboxrule=\skip80
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\exscale.sty"
 Package: exscale 2007/10/29 v2.1h Standard LaTeX package exscale
@@ -1046,28 +1083,28 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 \big@size=\dimen200
 )
 (C:\Users\chris\Documents\CNS2015\draft\poster.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 80.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 85.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 85.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 80.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 85.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1108,20 +1145,20 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count174
+\scratchcounter=\count183
 \scratchdimen=\dimen201
-\scratchbox=\box60
-\nofMPsegments=\count175
-\nofMParguments=\count176
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count177
+\scratchbox=\box62
+\nofMPsegments=\count184
+\nofMParguments=\count185
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count186
 \MPscratchDim=\dimen202
-\MPnumerator=\count178
-\makeMPintoPDFobject=\count179
-\everyMPtoPDFconversion=\toks48
+\MPnumerator=\count187
+\makeMPintoPDFobject=\count188
+\everyMPtoPDFconversion=\toks51
 ) ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box61
-Package hyperref Info: Link coloring OFF on input line 80.
+\AtBeginShipoutBox=\box63
+Package hyperref Info: Link coloring OFF on input line 85.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1129,11 +1166,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count180
+\c@section@level=\count189
 )
-LaTeX Info: Redefining \ref on input line 80.
-LaTeX Info: Redefining \pageref on input line 80.
-LaTeX Info: Redefining \nameref on input line 80.
+LaTeX Info: Redefining \ref on input line 85.
+LaTeX Info: Redefining \pageref on input line 85.
+LaTeX Info: Redefining \nameref on input line 85.
 
 (C:\Users\chris\Documents\CNS2015\draft\poster.out)
 (C:\Users\chris\Documents\CNS2015\draft\poster.out)
@@ -1163,24 +1200,24 @@ Dictionary: translator-numbers-dictionary, Language: English
 -theorem-dictionary\translator-theorem-dictionary-English.dict"
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 80.
+LaTeX Info: Redefining \includegraphics on input line 85.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 80.
+LaTeX Info: Redefining \selectfont on input line 85.
 
 (C:\Users\chris\Documents\CNS2015\draft\poster.nav)
-LaTeX Font Info:    Calculating math sizes for size <16.8> on input line 80.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 80.
+LaTeX Font Info:    Calculating math sizes for size <16.8> on input line 85.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 85.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 80.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 85.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 80.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 85.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
@@ -1188,74 +1225,109 @@ File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <16.8> not available
-(Font)              size <17.28> substituted on input line 80.
+(Font)              size <17.28> substituted on input line 85.
 
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 168.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 211.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for TS1+lmss on input line 168
+LaTeX Font Info:    Try loading font information for TS1+lmss on input line 211
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmss.fd"
 File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Calculating math sizes for size <34.83> on input line 168.
+LaTeX Font Info:    Calculating math sizes for size <34.83> on input line 211.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <34.83> not available
-(Font)              size <24.88> substituted on input line 168.
+(Font)              size <24.88> substituted on input line 211.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <24.38089> not available
-(Font)              size <24.88> substituted on input line 168.
+(Font)              size <24.88> substituted on input line 211.
 
 <figures/HitRate_FalseAlarmRate.png, id=14, 1154.3125pt x 531.9875pt>
 File: figures/HitRate_FalseAlarmRate.png Graphic file (type png)
 
 <use figures/HitRate_FalseAlarmRate.png>
 Package pdftex.def Info: figures/HitRate_FalseAlarmRate.png used on input line 
-168.
+211.
 (pdftex.def)             Requested size: 763.17543pt x 351.73788pt.
 
-<figures/ROIs.png, id=15, 2002.48125pt x 703.62875pt>
+<figures/Faces_WithinBeyond.png, id=15, 562.1pt x 421.575pt>
+File: figures/Faces_WithinBeyond.png Graphic file (type png)
+
+<use figures/Faces_WithinBeyond.png>
+Package pdftex.def Info: figures/Faces_WithinBeyond.png used on input line 211.
+
+(pdftex.def)             Requested size: 763.17543pt x 572.41452pt.
+
+<figures/Places_WithinBeyond.png, id=16, 562.1pt x 421.575pt>
+File: figures/Places_WithinBeyond.png Graphic file (type png)
+
+<use figures/Places_WithinBeyond.png>
+Package pdftex.def Info: figures/Places_WithinBeyond.png used on input line 211
+.
+(pdftex.def)             Requested size: 763.17543pt x 572.41452pt.
+
+<figures/Objects_WithinBeyond.png, id=17, 562.1pt x 421.575pt>
+File: figures/Objects_WithinBeyond.png Graphic file (type png)
+
+<use figures/Objects_WithinBeyond.png>
+Package pdftex.def Info: figures/Objects_WithinBeyond.png used on input line 21
+1.
+(pdftex.def)             Requested size: 763.17543pt x 572.41452pt.
+
+<figures/ROIs.png, id=18, 2002.48125pt x 720.6925pt>
 File: figures/ROIs.png Graphic file (type png)
  <use figures/ROIs.png>
-Package pdftex.def Info: figures/ROIs.png used on input line 168.
-(pdftex.def)             Requested size: 763.17543pt x 268.16547pt.
+Package pdftex.def Info: figures/ROIs.png used on input line 211.
+(pdftex.def)             Requested size: 763.17543pt x 274.66876pt.
 
-<figures/face_gt5c.png, id=16, 1770.615pt x 612.2875pt>
-File: figures/face_gt5c.png Graphic file (type png)
+<figures/face_gt5c_key.png, id=20, 1824.8175pt x 612.2875pt>
+File: figures/face_gt5c_key.png Graphic file (type png)
 
-<use figures/face_gt5c.png>
-Package pdftex.def Info: figures/face_gt5c.png used on input line 168.
-(pdftex.def)             Requested size: 763.17543pt x 263.9138pt.
+<use figures/face_gt5c_key.png>
+Package pdftex.def Info: figures/face_gt5c_key.png used on input line 211.
+(pdftex.def)             Requested size: 763.17543pt x 256.06589pt.
 
-<figures/place_gt5c.png, id=17, 1770.615pt x 622.325pt>
-File: figures/place_gt5c.png Graphic file (type png)
+<figures/place_gt5c_key.png, id=21, 1822.81pt x 622.325pt>
+File: figures/place_gt5c_key.png Graphic file (type png)
 
-<use figures/place_gt5c.png>
-Package pdftex.def Info: figures/place_gt5c.png used on input line 168.
-(pdftex.def)             Requested size: 763.17543pt x 268.24025pt.
+<use figures/place_gt5c_key.png>
+Package pdftex.def Info: figures/place_gt5c_key.png used on input line 211.
+(pdftex.def)             Requested size: 763.17543pt x 260.55806pt.
 
-<figures/object_gt5c.png, id=18, 1620.0525pt x 576.1525pt>
-File: figures/object_gt5c.png Graphic file (type png)
+<figures/object_gt5c_key.png, id=22, 1667.22874pt x 576.1525pt>
+File: figures/object_gt5c_key.png Graphic file (type png)
 
-<use figures/object_gt5c.png>
-Package pdftex.def Info: figures/object_gt5c.png used on input line 168.
-(pdftex.def)             Requested size: 763.17543pt x 271.4159pt.
+<use figures/object_gt5c_key.png>
+Package pdftex.def Info: figures/object_gt5c_key.png used on input line 211.
+(pdftex.def)             Requested size: 763.17543pt x 263.73224pt.
 
-<figures/FPO_gt5b2.png, id=19, 2192.19pt x 757.83125pt>
+<figures/FPO_gt5b2.png, id=23, 1658.195pt x 604.2575pt>
 File: figures/FPO_gt5b2.png Graphic file (type png)
 
 <use figures/FPO_gt5b2.png>
-Package pdftex.def Info: figures/FPO_gt5b2.png used on input line 168.
-(pdftex.def)             Requested size: 763.17543pt x 263.82259pt.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 168.
+Package pdftex.def Info: figures/FPO_gt5b2.png used on input line 211.
+(pdftex.def)             Requested size: 763.17543pt x 278.10013pt.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 211.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
+Overfull \hbox (88.25626pt too wide) detected at line 211
+[][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][
+][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][]
+ [][][][][][][] 
+ []
+
+
+Overfull \vbox (692.93387pt too high) detected at line 211
+ []
+
+
 Overfull \hbox (88.20334pt too wide) has occurred while \output is active
 []
  []
@@ -1263,20 +1335,22 @@ Overfull \hbox (88.20334pt too wide) has occurred while \output is active
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
  <C:/Users/chris/Documents/CNS2015/draft/figures/HitRate_FalseAlarmRate.png (PN
-G copy)> <C:/Users/chris/Documents/CNS2015/draft/figures/ROIs.png (PNG copy)> <
-C:/Users/chris/Documents/CNS2015/draft/figures/face_gt5c.png (PNG copy)> <C:/Us
-ers/chris/Documents/CNS2015/draft/figures/place_gt5c.png (PNG copy)> <C:/Users/
-chris/Documents/CNS2015/draft/figures/object_gt5c.png (PNG copy)> <C:/Users/chr
-is/Documents/CNS2015/draft/figures/FPO_gt5b2.png (PNG copy)>]
+G copy)> <C:/Users/chris/Documents/CNS2015/draft/figures/Faces_WithinBeyond.png
+ (PNG copy)> <C:/Users/chris/Documents/CNS2015/draft/figures/Places_WithinBeyon
+d.png (PNG copy)> <C:/Users/chris/Documents/CNS2015/draft/figures/Objects_Withi
+nBeyond.png (PNG copy)> <C:/Users/chris/Documents/CNS2015/draft/figures/ROIs.pn
+g> <C:/Users/chris/Documents/CNS2015/draft/figures/face_gt5c_key.png> <C:/Users
+/chris/Documents/CNS2015/draft/figures/place_gt5c_key.png> <C:/Users/chris/Docu
+ments/CNS2015/draft/figures/object_gt5c_key.png> <C:/Users/chris/Documents/CNS2
+015/draft/figures/FPO_gt5b2.png>]
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
-
-(C:\Users\chris\Documents\CNS2015\draft\poster.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 212.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 212.
+ (C:\Users\chris\Documents\CNS2015\draft\poster.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 212.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 212.
 Package rerunfilecheck Info: File `poster.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1284,13 +1358,13 @@ Package rerunfilecheck Info: File `poster.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 9.95pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 212.
  ) 
 Here is how much of TeX's memory you used:
- 21905 strings out of 493921
- 428216 string characters out of 3147282
- 532539 words of memory out of 3000000
- 24649 multiletter control sequences out of 15000+200000
+ 22538 strings out of 493921
+ 437608 string characters out of 3147282
+ 564008 words of memory out of 3000000
+ 25261 multiletter control sequences out of 15000+200000
  69344 words of font info for 66 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  60i,16n,71p,423b,1188s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1306,9 +1380,9 @@ iles/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
 
-Output written on poster.pdf (1 page, 14321511 bytes).
+Output written on poster.pdf (1 page, 2410999 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
+ 83 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
- 79 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 94 words of extra memory for PDF output out of 10000 (max. 10000000)
 

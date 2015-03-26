@@ -8,6 +8,8 @@
 \documentclass[final]{beamer}
 \usepackage[scale=1.4]{beamerposter}
 \usepackage{graphicx}			% allows us to import images
+\usepackage{algpseudocode}
+\usepackage{algorithm}
 
 %-----------------------------------------------------------
 % Define the column width and poster size
@@ -40,6 +42,9 @@
 \newcommand{\Face}{\red{\textbf{Face}}}
 \newcommand{\Place}{\green{\textbf{Place}}}
 \newcommand{\Object}{\blue{\textbf{Object}}}
+\newcommand{\Faces}{\red{\textbf{Faces}}}
+\newcommand{\Places}{\green{\textbf{Places}}}
+\newcommand{\Objects}{\blue{\textbf{Objects}}}
 
 %-----------------------------------------------------------
 % The next part fixes a problem with figure numbering. Thanks Nishan!
@@ -87,14 +92,15 @@
       		\item A large body of the most historically relevant work in cognitive neuroscience has emphasized \textbf{functional localization}. 
 %      		\item There has been great emphasis on identifying brain regions that seem to be reliably and specifically active even for quite complex cognitive functions, such as face (ref), place (ref), and object (ref) recognition. 
       		\item However, the focus on \textit{reliability}, \textit{specificity}, and \textit{locality} of neural activity may reveal only a fraction of the full neural representation of these concepts and processes (ref), overlooking what is \textbf{distributed and idiosyncratic}.
-      		\item We consider whether {\Face}, {\Place}, and {\Object} recognition are processes whose neural bases are specific, reliable, and localized systems, or if they have important aspects that are distributed and ideosyncratic.
+      		\item We consider whether {\Face}, {\Place}, and {\Object} recognition are processes whose neural bases are specific, reliable, and localized systems, or if they have important aspects that are distributed and idiosyncratic.
       	\end{itemize}
       \end{block}
       \vskip2ex
       \begin{block}{Iterative Lasso}
       	Lasso (ref) is an example of regularized regression:
    		\begin{equation*}
-	   		\argmin_\beta \sum^{n}_{i=1}{\log(1 + e^{-\bar{y}_i X_i\beta})} {\color{red} + \lambda h(\beta)}
+			\argmin_\beta \sum^{n}_{i=1}{(\bar{y}_i - X_i\beta)^2} {\color{red} + \lambda h(\beta)}
+%	   		\argmin_\beta \sum^{n}_{i=1}{\log(1 + e^{-\bar{y}_i X_i\beta})} {\color{red} + \lambda h(\beta)}
    		\end{equation*}
 
    		It is standard regression with an additional penalty:
@@ -107,7 +113,7 @@
 
 		 \begin{figure}
 		 \includegraphics[width=\textwidth]{figures/HitRate_FalseAlarmRate.png}
-		 \caption{False Alarm Rate}
+		 \caption{Specificity of Iterative Lasso}
 		 \end{figure}
 
       \end{block}
@@ -116,27 +122,64 @@
         Lasso achieves a sparse solution by selecting voxels that each provide \textit{unique} information. Is several voxels are very informative but are correlated, Lasso will select one and ignore the others. By running Lasso iteratively, these correlated voxels can be identified. 
       \end{alertblock}
     \end{column}
+   	\begin{column}{\sepwid}\end{column}			% empty spacer column
+   	\begin{column}{\introcolwid}
+   		\begin{block}{Data}
+   			\begin{itemize}
+   				\item fMRI data from 10 Ps.
+   				\item Ps viewed each of 30 celebritiy {\Faces}, 30 famous {\Places}, and 30 common {\Objects} in random order.
+   				\item On each trial, the picture stayed on the screen for 5s. 
+   				\item After it disappeared, Ps rated how much they liked the celebrity, how much they would like to visit the location, or how often they encountered the object in everyday life. 
+   			\end{itemize}
+   		\end{block}
+   		
+   		\begin{block}{Procedure}
+				\begin{algorithmic}
+					\If {$i\geq maxval$}
+					\State $i\gets 0$
+					\Else
+					\If {$i+k\leq maxval$}
+					\State $i\gets i+k$
+					\EndIf
+					\EndIf
+				\end{algorithmic}
+  		\end{block}
+  		\begin{block}{Performance}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{figures/Faces_WithinBeyond.png}
+				\caption{Face Classification}
+			\end{figure}			
+			\begin{figure}
+				\includegraphics[width=\textwidth]{figures/Places_WithinBeyond.png}
+				\caption{Place Classification}
+			\end{figure}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{figures/Objects_WithinBeyond.png}
+				\caption{Object Classification}
+			\end{figure}
+  		\end{block}
+   	\end{column}
 
     \begin{column}{\sepwid}\end{column}			% empty spacer column
     \begin{column}{\introcolwid}					  % create a three-column-wide column and then we will split it up later
 		\begin{block}{Data and ROIs}
 			\begin{figure}
 				\includegraphics[width=\textwidth]{figures/ROIs.png}
-				\caption{False Alarm Rate}
+				\caption{ROIs defined by Julian, J.B., Fedorenko, E., Webster, J., \& Kanwisher, N. (2012)}
 			\end{figure}
 		\end{block}
 		
-		\begin{block}{Solutions}
+		\begin{block}{Whole-brain Solutions}
 			\begin{figure}
-				\includegraphics[width=\textwidth]{figures/face_gt5c.png}
+				\includegraphics[width=\textwidth]{figures/face_gt5c_key.png}
 				\caption{Face Solutions}
 			\end{figure}
 			\begin{figure}
-				\includegraphics[width=\textwidth]{figures/place_gt5c.png}
+				\includegraphics[width=\textwidth]{figures/place_gt5c_key.png}
 				\caption{Place Solutions}
 			\end{figure}
 			\begin{figure}
-				\includegraphics[width=\textwidth]{figures/object_gt5c.png}
+				\includegraphics[width=\textwidth]{figures/object_gt5c_key.png}
 				\caption{Object Solutions}
 			\end{figure}
 		\end{block}
@@ -150,7 +193,7 @@
           \end{block}
 	\end{column}
 	\begin{column}{\sepwid}\end{column}			% empty spacer column
-	\begin{column}{\datacolwid}
+	\begin{column}{\introcolwid}
       \setbeamercolor{block alerted title}{fg=black,bg=norange}	% frame color
       \setbeamercolor{block alerted body}{fg=black,bg=white}		% body color
       \begin{alertblock}{Alert Block Colours}
