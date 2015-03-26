@@ -110,7 +110,7 @@
 		\begin{equation*}
 	   		{\color{red}h(\beta)} = \sum|\beta_j|
    		\end{equation*}
-   		Seeks best solution using {\em fewest} voxels. But that means many informative voxels may not be included in the solution. That is, \textbf{Lasso has a low hit-rate}.
+   		This forces a {\em sparse} solution. But that means many informative voxels may not be discovered. That is, \textbf{Lasso has a low hit-rate}.
    		
    		If Lasso is run \textbf{iteratively}, each time excluding voxels that have already been discovered, more of the activity contributing to neural state can be recovered. 
 
@@ -122,7 +122,7 @@
       \end{block}
       \vskip2ex
       \begin{alertblock}{Lasso for fMRI analysis}
-        Lasso achieves a sparse solution by selecting voxels that each provide \textit{unique} information. Is several voxels are very informative but are correlated, Lasso will select one and ignore the others. By running Lasso iteratively, these correlated voxels can be identified. 
+        Lasso achieves a sparse solution by selecting voxels that each provide \textit{unique} information. If several voxels are very informative but are correlated, Lasso will select one and ignore the others. By running Lasso iteratively, these correlated voxels can be identified. 
       \end{alertblock}
     \end{column}
    	\begin{column}{\sepwid}\end{column}			% empty spacer column
@@ -134,7 +134,7 @@
    				\item On each trial, the picture stayed on the screen for 5s. 
    				\item After it disappeared, Ps rated how much they liked the celebrity, how much they would like to visit the location, or how often they encountered the object in everyday life. 
    			\end{itemize}
-   			We attempt classification based on each of the 5 TRs following stimulus onset.
+   			We attempt classification based on each of the 5 (2s) TRs following stimulus onset.
    		\end{block}
    		
    		\begin{block}{Iterative Lasso Procedure}
