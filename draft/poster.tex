@@ -133,36 +133,49 @@
    			\end{itemize}
    		\end{block}
    		
-   		\begin{block}{Procedure}
-				\begin{algorithmic}
-					\ForAll {Subjects}
-						X \gets SubjectData
-						\ForAll {ROI \gets Face,Place,Object,WholeBrain}
-							\For {TR \gets 0,4}
-								solution \gets iLasso()				
-							\EndFor
-						\EndFor
+   		\begin{block}{Iterative Lasso Procedure}
+%   		\begin{algorithm}[H]
+%   		\label{alg.iterlasso}
+%   		\caption{The iterative lasso algorithm.}
+			{\small\begin{algorithmic}
+				\Repeat
+					\ForAll {$cv$}
+						\State $\beta_{iter,cv} \gets \mathtt{Lasso}(X_{cv},y_{cv})$
+						\State $prediction \gets X_{cv} \cdot \beta_{iter,cv}$
+						\State $performance_{cv} \gets \mathtt{dprime}(y_{cv},prediction)$
 					\EndFor
-				\end{algorithmic}
+					\State $iter \gets iter+1$
+				\Until {$\mathtt{mean}(performance_{\cdot}) < chance$}
+				\ForAll {$cv$}
+					\State $v* \gets \mathtt{any}(\beta_{\cdot,cv})$
+					\State $X_{cv}^* \gets X_{cv,v^*}$
+					\State $\beta_{cv}^* \gets \mathtt{Ridge}(X_{cv}^*,y_{cv})$
+				\EndFor
+			\end{algorithmic}}
+%		\end{algorithm}
   		\end{block}
-  		\begin{block}{Performance}
-			\begin{figure}
-				\includegraphics[width=\textwidth]{figures/Summary_by_TR.png}
-				\caption{Classification performance, contrasting whether iLasso is trained on voxels only within, or only beyond, the prescribed ROIs. TR 0 is stimulus onset.}
-			\end{figure}			
-  		\end{block}
-   	\end{column}
-
-    \begin{column}{\sepwid}\end{column}			% empty spacer column
-    \begin{column}{\introcolwid}					  % create a three-column-wide column and then we will split it up later
-		\begin{block}{Data and ROIs}
+  		
+		\begin{block}{Face, Place, and Object ROIs}
 			\begin{figure}
 				\includegraphics[width=\textwidth]{figures/ROIs.png}
 				\caption{ROIs defined by Julian, J.B., Fedorenko, E., Webster, J., \& Kanwisher, N. (2012)}
 			\end{figure}
 		\end{block}
+  				
+  		\begin{block}{Performance}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{figures/Summary_By_TR.png}
+				\caption{Classification performance, contrasting whether Iterative Lasso is trained on voxels only within, or only beyond, the prescribed ROIs. Performance when trained on all voxels is also shown. TR 0 is stimulus onset.}
+			\end{figure}			
+  		\end{block}
+
+   	\end{column}
+
+    \begin{column}{\sepwid}\end{column}			% empty spacer column
+    \begin{column}{\introcolwid}					  % create a three-column-wide column and then we will split it up later
 		
 		\begin{block}{Whole-brain Solutions}
+			Voxels identified with a positive weight in more than $5$ out of $10$ cross validation runs in any subject are plotted on a common brain. Values indicate number of subjects for whom that voxel was selected.
 			\begin{figure}
 				\includegraphics[width=\textwidth]{figures/face_gt5c_key.png}
 				\caption{Face Solutions}
@@ -187,17 +200,23 @@
 	\end{column}
 	\begin{column}{\sepwid}\end{column}			% empty spacer column
 	\begin{column}{\introcolwid}
-      \setbeamercolor{block alerted title}{fg=black,bg=norange}	% frame color
-      \setbeamercolor{block alerted body}{fg=black,bg=white}		% body color
-      \begin{alertblock}{Alert Block Colours}
-        You can similarly modify the colours for alert blocks (but try not to overdo it):\\
-        \begin{semiverbatim}
-          {\color{red}\\setbeamercolor}\{block title\}\newline \{fg=black,bg=norange\}
-        \end{semiverbatim}
-        \begin{semiverbatim}
-          {\color{red}\\setbeamercolor}\{block  body\}\newline \{fg=black,bg=white\}
-        \end{semiverbatim}
-      \end{alertblock}        
+      \begin{block}{Where are the discovered voxels?}
+		\begin{figure}
+			\includegraphics[width=\textwidth]{figures/Summary_ProportionSelected.png}
+			\caption{Proportion of voxels selected within and outside the prescribed ROIs.}
+		\end{figure}
+      \end{block}
+      
+      \begin{block}{Conclusions}
+      	\begin{itemize}
+      		\item A whole-brain multivariate analysis (Iterative Lasso), with no built in assumptions about reliability, specificity, or localization nevertheless identifies much of the neural regions suggested by univariate analyses that do make such assumptions.
+      		\item On the other hand, Iterative Lasso also identifies many areas that lie far beyond the prescribed regions of interest.
+      		\item These ``extra'' areas appear to idiosyncratic to each subject.  
+      		\item We know important information is represented beyond the ROIs, because performance does not drop when the ROIs are removed.
+      	\end{itemize}
+      	Iterative Lasso appears to be a relatively unbiased approach to whole-brain MVPA.
+
+      \end{block}
     \end{column}
 	\begin{column}{\sepwid}\end{column}			% empty spacer column
 \end{columns}
