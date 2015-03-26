@@ -1,0 +1,19 @@
+
+***COLORS
+  white = #FFFFFF
+  cyan = #00FFFF
+  purple = #FF00FF
+  blue = #0000FF
+  yellow = #FFFF00
+  green = #00FF00
+  red = #FF0000
+
+***PALETTES ROIColorPallette [8+]
+  1.0000 -> white
+  0.8571 -> cyan
+  0.7143 -> purple
+  0.5714 -> blue
+  0.4286 -> yellow
+  0.2857 -> green
+  0.1429 -> red
+  0.0000 -> none
