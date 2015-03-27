@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.7)  26 MAR 2015 14:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.7)  26 MAR 2015 17:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1234,35 +1234,36 @@ File: figures/ROIs.png Graphic file (type png)
 Package pdftex.def Info: figures/ROIs.png used on input line 239.
 (pdftex.def)             Requested size: 763.17543pt x 274.66876pt.
 
-<figures/Summary_By_TR.png, id=21, 393.8715pt x 125.0271pt>
-File: figures/Summary_By_TR.png Graphic file (type png)
+<figures/Summary_By_TR_bigger.png, id=20, 990.5808pt x 522.2712pt>
+File: figures/Summary_By_TR_bigger.png Graphic file (type png)
 
-<use figures/Summary_By_TR.png>
-Package pdftex.def Info: figures/Summary_By_TR.png used on input line 239.
-(pdftex.def)             Requested size: 763.17543pt x 242.2909pt.
+<use figures/Summary_By_TR_bigger.png>
+Package pdftex.def Info: figures/Summary_By_TR_bigger.png used on input line 23
+9.
+(pdftex.def)             Requested size: 763.17543pt x 402.3732pt.
 
-<figures/face_gt5c_key.png, id=22, 1824.8175pt x 612.2875pt>
+<figures/face_gt5c_key.png, id=21, 1824.8175pt x 612.2875pt>
 File: figures/face_gt5c_key.png Graphic file (type png)
 
 <use figures/face_gt5c_key.png>
 Package pdftex.def Info: figures/face_gt5c_key.png used on input line 239.
 (pdftex.def)             Requested size: 763.17543pt x 256.06589pt.
 
-<figures/place_gt5c_key.png, id=23, 1822.81pt x 622.325pt>
+<figures/place_gt5c_key.png, id=22, 1822.81pt x 622.325pt>
 File: figures/place_gt5c_key.png Graphic file (type png)
 
 <use figures/place_gt5c_key.png>
 Package pdftex.def Info: figures/place_gt5c_key.png used on input line 239.
 (pdftex.def)             Requested size: 763.17543pt x 260.55806pt.
 
-<figures/object_gt5c_key.png, id=24, 1667.22874pt x 576.1525pt>
+<figures/object_gt5c_key.png, id=23, 1667.22874pt x 576.1525pt>
 File: figures/object_gt5c_key.png Graphic file (type png)
 
 <use figures/object_gt5c_key.png>
 Package pdftex.def Info: figures/object_gt5c_key.png used on input line 239.
 (pdftex.def)             Requested size: 763.17543pt x 263.73224pt.
 
-<figures/FPO_gt5b2.png, id=25, 1658.195pt x 604.2575pt>
+<figures/FPO_gt5b2.png, id=24, 1658.195pt x 604.2575pt>
 File: figures/FPO_gt5b2.png Graphic file (type png)
 
 <use figures/FPO_gt5b2.png>
@@ -1282,7 +1283,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 239--239
 \T1/lmr/m/n/34.83 it-er-a-tive lasso can be found here:
  []
 
-<figures/Summary_ProportionSelected.png, id=26, 223.5552pt x 225.2415pt>
+<figures/Summary_ProportionSelected.png, id=25, 223.5552pt x 225.2415pt>
 File: figures/Summary_ProportionSelected.png Graphic file (type png)
 
 <use figures/Summary_ProportionSelected.png>
@@ -1304,9 +1305,9 @@ Overfull \hbox (88.20334pt too wide) has occurred while \output is active
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
  <./figures/HitRate_FalseAlarmRate.png (PNG copy)> <./figures/ROIs.png> <./figu
-res/Summary_By_TR.png (PNG copy)> <./figures/face_gt5c_key.png> <./figures/plac
-e_gt5c_key.png> <./figures/object_gt5c_key.png> <./figures/FPO_gt5b2.png> <./fi
-gures/Summary_ProportionSelected.png (PNG copy)>]
+res/Summary_By_TR_bigger.png (PNG copy)> <./figures/face_gt5c_key.png> <./figur
+es/place_gt5c_key.png> <./figures/object_gt5c_key.png> <./figures/FPO_gt5b2.png
+> <./figures/Summary_ProportionSelected.png (PNG copy)>]
 \tf@nav=\write6
 \openout6 = `poster.nav'.
 
@@ -1332,8 +1333,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 240.
  ) 
 Here is how much of TeX's memory you used:
  20790 strings out of 495028
- 384840 string characters out of 6181498
- 557528 words of memory out of 5000000
+ 384875 string characters out of 6181498
+ 557199 words of memory out of 5000000
  23437 multiletter control sequences out of 15000+600000
  97956 words of font info for 96 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1348,9 +1349,9 @@ r/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/pub
 lic/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on poster.pdf (1 page, 7508357 bytes).
+Output written on poster.pdf (1 page, 31711083 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
+ 93 PDF objects out of 1000 (max. 8388607)
  60 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
  89 words of extra memory for PDF output out of 10000 (max. 10000000)
